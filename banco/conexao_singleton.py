@@ -16,6 +16,7 @@ class Conexao:
         database: str = "postgres",   # Nome do banco de dados
         user: str = "postgres",       # Nome de usuário para autenticação no banco de dados
         password: str = "root",       # Senha para autenticação no banco de dados
+        port: int = 5434,             # Porta do servidor de banco de dados
     ):
         # Inicializa a conexão apenas uma vez
         if not hasattr(self, "__inicializado"):
@@ -23,6 +24,7 @@ class Conexao:
             self.__database = database
             self.__user = user
             self.__password = password
+            self.__port = port
             self.__conexao = None
             self.__inicializado = True
             print("Classe Conexao inicializada!")  # Mensagem de debug para verificar a inicialização
@@ -37,6 +39,7 @@ class Conexao:
                     database=self.__database,
                     user=self.__user,
                     password=self.__password,
+                    port=self.__port
                 )
 
                 print("Conexão estabelecida!")  # Mensagem de sucesso na conexão

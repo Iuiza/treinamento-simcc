@@ -37,6 +37,7 @@ def listar():
 # Rota para apagar um pesquisador com base no lattes_id
 @pesquisador_router.delete("/pesquisadores/{lattes_id}", response_model=str)
 def apagar(lattes_id: str):
+    print("chegou aqui")
     resposta = apagar_por_lattes_id(lattes_id)
     
     if 'inválido' in resposta:

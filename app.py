@@ -48,7 +48,7 @@ async def index():
                 Clique <a target="_blank" style="color: blue; text-decoration: none; background-color: white; padding: 5px 8px; border-radius: 5px;" href="/docs">AQUI</a> para acessar a documentação.
             </p>
             <p class="card" style="width: 50%; padding: 20px; font-size: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; border-radius: 10px; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363); overflow-wrap: break-word">
-                Já estão salvos no banco uma lista de pesquisadores que você adicionou quando rodou o script <span style="background-color: rgba(183, 183, 183, 0.796); border-radius: 3px; padding: 3px; font-family: 'Courier New', Courier, monospace;">povoar_bd.py</span>. Você consegue ver o json normalmente digitando no navegador: <a style="display: block; margin: 20px;" target="_blank" href="/pesquisadores">http://localhost:8000/pesquisadores</a> Mas para adicionar um novo pesquisador, atualizar ou excluir, use o ThunderClient ou PostMan (Extensões no VSCode).
+                Já está no banco uma lista de pesquisadores que você adicionou quando rodou o script <span style="background-color: rgba(183, 183, 183, 0.796); border-radius: 3px; padding: 3px; font-family: 'Courier New', Courier, monospace;">povoar_bd.py</span>. Você consegue ver o json normalmente digitando no navegador: <a style="display: block; margin: 20px;" target="_blank" href="/pesquisadores">http://localhost:8000/pesquisadores</a> Mas para adicionar um novo pesquisador, atualizar ou excluir, use o ThunderClient ou PostMan (Extensões no VSCode).
             </p>
         </div>
         
