@@ -7,8 +7,6 @@ app = FastAPI()
 
 # Inclui o router de pesquisadores
 app.include_router(pesquisador_router)
-# Inclui o router de producoes
-app.include_router(producao_router)
 
 @app.get("/", response_class=HTMLResponse)
 async def index():
