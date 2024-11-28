@@ -18,7 +18,9 @@ def adicionar(pesquisador: Pesquisador):
     resposta = salvar_novo_pesquisador(
         nome = pesquisador.nome,
         lattes_id = pesquisador.lattes_id,
-        pesquisadores_id = pesquisador.pesquisadores_id
+        pesquisador_id=pesquisador.pesquisadores_id
+
+       
     )
     
     if 'duplicate' in resposta:
