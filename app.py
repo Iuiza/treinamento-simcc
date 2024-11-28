@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi import Request
 from controller.pesquisador_controller import pesquisador_router
-from controller.producoes_controller import producao_router
+
 app = FastAPI()
 
 # Inclui o router de pesquisadores
