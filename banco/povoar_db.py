@@ -21,9 +21,8 @@ script_sql_criacao = """
         anoArtigo INTEGER NOT NULL,
         PRIMARY KEY (producoes_id),
         CONSTRAINT fkey FOREIGN KEY (pesquisadores_id) 
-        REFERENCES pesquisadores (pesquisadores_id) 
-        ON UPDATE NO ACTION 
-        ON DELETE NO ACTION
+        REFERENCES pesquisadores (pesquisadores_id) ON DELETE CASCADE
+       
     );
 """
 
