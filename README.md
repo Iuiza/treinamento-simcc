@@ -13,7 +13,7 @@ As pastas estão organizadas de acordo com a responsabilidade de cada módulo.
 
 > [!IMPORTANT]
 >
-> Antes de começar verifique se você tem a versão do Python acima da 3.12 e o Docker instalado. Você pode instalar no ambiente virtual, se preferir. Este tutorial não cobre a instalação do Python e suas dependências, pois os comandos podem ser diferentes dependendo da instalação.
+> Antes de começar verifique se você tem a versão do Python igual ou maior que a 3.12 e o Docker instalado. Você pode instalar no ambiente virtual, se preferir. Este tutorial não cobre a instalação do Python e suas dependências, pois os comandos podem ser diferentes dependendo da instalação.
 
 ### Passo 1
 
